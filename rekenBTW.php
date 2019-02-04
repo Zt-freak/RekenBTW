@@ -18,7 +18,7 @@
                         $bedragIncBTW = round($_GET["bedrag"]*1.21, 2);
                     }
                     else if ($_GET["toggleBTW"] == "incl") {
-                        $bedragExclBTW = round($_GET["bedrag"]/100*79, 2);
+                        $bedragExclBTW = round($_GET["bedrag"]/121*100);
                         $bedragIncBTW = $_GET["bedrag"];
                     }
                     else {
